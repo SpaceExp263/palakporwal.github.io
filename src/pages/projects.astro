@@ -5,7 +5,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Data Science Projects</div>
   </div>
 
   <HorizontalCard
@@ -22,30 +22,36 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     desc="The aim of this project is to analyze Airbnb data from Seattle to determine which aspects or characteristics of hosts contribute to securing more bookings and generating higher revenue. By identifying these key factors, potential hosts can optimize their profiles to maximize their profits."
     url="https://github.com/palakpwl07/AirbnbHostAnalysis"
   />
-
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
-
+  <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 3"
+    title="HDB Price Prediction"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="This project focuses on analyzing the pricing of Housing and Development Board (HDB) flats in Singapore. The goal is to uncover patterns, trends, and factors that influence HDB flat prices and ultimately use machine learning techniques to predict the prices."
+    url="https://github.com/palakpwl07/HDB-Pricing-Prediction"
     badge="FOSS"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
+    title="Correlation Analysis of Twitter Usage and Personality Traits"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="This project analyzes the relationship between personality traits, particularly those assessed through surveys and MBTI (Myers-Briggs Type Indicator), and Twitter usage patterns. The analysis leverages both survey data and a large dataset of Twitter activity to explore correlations between perceived personality traits and online behavior."
+    url="https://github.com/palakpwl07/TwitterSurveyAnalysis"
+  />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Entrepreneurial and Business Projects</div>
+  </div>
+  <HorizontalCard
+    title="Wheelock"
+    img="/post_img.webp"
+    desc="This project was a collaborative effort aimed at addressing the increasing need for secure and convenient public bicycle parking in Singapore. With the rise in cycling as a mode of transportation, the challenges of bicycle theft and inadequate parking facilities have become more prominent. WheeLock offers a smart, automated bicycle locking system that enhances the security and usability of existing bicycle racks."
+    url="https://github.com/palakpwl07/Wheelock"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 5"
+    title="LearnIt"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="This project was conceived to address the challenges faced by online learners who often find themselves lost in the sea of available courses. Whether it's content inequality, price disparity, or simply the confusion of where to start, my platform is built to guide you through every step of your learning journey."
+    url="https://github.com/palakpwl07/LearnIt-AIPoweredRecommender"
   />
 </BaseLayout>
