@@ -2,7 +2,7 @@
 title: "Building the Ensemble model: My approach"
 description: "This blog outlines my process of building an ensemble model to predict F10.7 to automate ground support stations.I take a deep dive into the Exploratory Data Analysis and the individual models that consitute the ensemble model."
 pubDate: "Sep 11 2022"
-heroImage: "/photo7.webp"
+heroImage: "/ml.webp"
 ---
 
 **Problem Statement:**
@@ -17,7 +17,7 @@ An extensive Exploratory Data Analysis (EDA) was conducted on this dataset to un
 
 The solar cycle typically runs in an 11-year pattern, with values generally increasing from the start of the cycle to the midpoint (solar maximum) and then decreasing towards the end (solar minimum). This cyclical nature of solar activity was a key consideration in the modeling process.
 
-![Solar activity trends over time] (/solarcyclewebp.webp)
+![Solar activity trends over time](/solarcyclewebp.webp)
 
 **The Ensemble Approach:**
 
@@ -31,7 +31,7 @@ Given the cyclical and complex nature of the solar cycle, a single model might n
 
 The ensemble model, with a weighted combination of these three approaches, was designed to balance the strengths of each individual model, ensuring that the predictions are both accurate and robust. When measured against historical data, the ensemble achieved a prediction accuracy of 85%, demonstrating its effectiveness in forecasting F10.7.
 
-![Comparison of Accuracy of various models] (/comparisonwebp.webp)
+![Comparison of Accuracy of various models](/comparisonwebp.webp)
 
 **Understanding Atmospheric Drag:**
 
