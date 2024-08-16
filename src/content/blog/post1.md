@@ -1,7 +1,7 @@
 ---
 title: "My Experience at RFA"
 description: "In this blog, I recount my experience interning at Rocket Factory Augsburg (RFA), a European rocket startup. I discuss the challenges of adapting to a new country and a fast-paced work environment, and share key lessons in resilience and growth. I also provide practical tips for aspiring interns on how to prepare and thrive in similar opportunities."
-pubDate: "Sep 10 2024"
+pubDate: "Aug 16 2024"
 heroImage: "/rfafinal.webp"
 tags: ["Germany","Overseas Internship"]
 ---
@@ -20,14 +20,14 @@ At one point, I was juggling projects for three different teams, even assisting 
 - **Professional Communication in English**: Although German is the primary language in Germany, RFA operated mainly in English, which was a huge relief given my limited German proficiency.
 - **Team Activities**: RFA’s HR department organized fun team-building activities that helped strengthen connections with colleagues.
 
-![My incredible experience at RFA would be impossible without some amazing people](/RFApicwebp.webp)
+![alt="My incredible experience at RFA would be impossible without some amazing people"](/RFApicwebp.webp)
 
 **Overcoming Challenges**
 
 My adventure began in January, right in the middle of the freezing German winter. I often joked about pathetic fallacy—the dark and dreary weather mirrored my initial feelings of loneliness and overwhelm. Knowing no one in Germany and struggling with the language barrier, the first month was tough. Even everyday tasks, like reading road signs and shopping at supermarkets, were challenging because everything was in German.
 I emphasize the challenges because, unfortunately, social media often portrays moving abroad as an incredibly enjoyable experience where everything happens smoothly. But it’s often completely opposite to that: moving abroad can be an incredible experience, but it comes with its due challenges. Not all days are going to be the same, and you can feel extremely out of place and uncomfortable. Therefore, be prepared before moving.
 
-![Here are some more long lasting memories](/collage.webp)
+![alt="Here are some more long lasting memories"](/collage.webp)
 
 **My Advice for Aspiring Interns**
 

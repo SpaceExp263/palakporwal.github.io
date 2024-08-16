@@ -1,7 +1,7 @@
 ---
 title: "Building the Ensemble model: My approach"
 description: "This blog outlines my process of building an ensemble model to predict F10.7 to automate ground support stations.I take a deep dive into the Exploratory Data Analysis and the individual models that consitute the ensemble model."
-pubDate: "Sep 11 2022"
+pubDate: "May 31 2024"
 heroImage: "/ml.webp"
 ---
 
@@ -17,21 +17,21 @@ An extensive Exploratory Data Analysis (EDA) was conducted on this dataset to un
 
 The solar cycle typically runs in an 11-year pattern, with values generally increasing from the start of the cycle to the midpoint (solar maximum) and then decreasing towards the end (solar minimum). This cyclical nature of solar activity was a key consideration in the modeling process.
 
-![Solar activity trends over time](/solarcyclewebp.webp)
+![alt="Solar activity trends over time"](/solarcyclewebp.webp)
 
 **The Ensemble Approach:**
 
 Given the cyclical and complex nature of the solar cycle, a single model might not capture all the nuances of the data. Therefore, I employed an ensemble approach, combining three distinct models:
 
--LSTM (Long Short-Term Memory): LSTM is a type of recurrent neural network (RNN) that is well-suited for time series forecasting, especially when long-term dependencies are present. Given that the solar cycle spans 11 years, LSTM's ability to retain information over long sequences made it an ideal candidate for capturing the cyclic patterns in the F10.7 index. I assigned the maximum weight to the LSTM model because it could effectively model the temporal dependencies and nonlinearities in the data.
+- ***LSTM (Long Short-Term Memory)***: LSTM is a type of recurrent neural network (RNN) that is well-suited for time series forecasting, especially when long-term dependencies are present. Given that the solar cycle spans 11 years, LSTM's ability to retain information over long sequences made it an ideal candidate for capturing the cyclic patterns in the F10.7 index. I assigned the maximum weight to the LSTM model because it could effectively model the temporal dependencies and nonlinearities in the data.
 
--Facebook Prophet: Prophet is a model specifically designed for forecasting time series data that exhibits strong seasonal patterns and holiday effects. The solar cycle's predictable 11-year pattern aligns well with Prophet's capabilities, making it a valuable component of the ensemble.
+- ***Facebook Prophet***: Prophet is a model specifically designed for forecasting time series data that exhibits strong seasonal patterns and holiday effects. The solar cycle's predictable 11-year pattern aligns well with Prophet's capabilities, making it a valuable component of the ensemble.
 
--Gradient Regressor: To account for any linear trends and potential external factors influencing F10.7, I included a Gradient Regressor in the ensemble. This model helps to capture any residual patterns that might not be well-represented by the LSTM and Prophet models.
+- ***Gradient Regressor***: To account for any linear trends and potential external factors influencing F10.7, I included a Gradient Regressor in the ensemble. This model helps to capture any residual patterns that might not be well-represented by the LSTM and Prophet models.
 
 The ensemble model, with a weighted combination of these three approaches, was designed to balance the strengths of each individual model, ensuring that the predictions are both accurate and robust. When measured against historical data, the ensemble achieved a prediction accuracy of 85%, demonstrating its effectiveness in forecasting F10.7.
 
-![Comparison of Accuracy of various models](/comparisonwebp.webp)
+![alt="Comparison of Accuracy of various models"](/comparisonwebp.webp)
 
 **Understanding Atmospheric Drag:**
 
