@@ -3,7 +3,7 @@ title: "My Experience at RFA"
 description: "In this blog, I recount my experience interning at Rocket Factory Augsburg (RFA), a European rocket startup. I discuss the challenges of adapting to a new country and a fast-paced work environment, and share key lessons in resilience and growth. I also provide practical tips for aspiring interns on how to prepare and thrive in similar opportunities."
 pubDate: "Sep 10 2024"
 heroImage: "/photo8.webp"
-tags: ["Germany"]["Overseas Internship"]
+tags: ["Germany","Overseas Internship"]
 ---
 
 When I received my offer letter from Rocket Factory Augsburg (RFA), it felt like a dream come true. As an aerospace engineering student, landing a position at a rocket startup was a milestone I had been striving for. But the journey to secure that internship was anything but straightforward, filled with unexpected twists and hurdles.
