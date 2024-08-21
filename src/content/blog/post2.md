@@ -11,7 +11,7 @@ The F10.7 index, a measure of solar radio flux at a wavelength of 10.7 cm, is a 
 
 **Data Collection and Preparation:**
 
-To build the model, I retrieved historical F10.7 data dating back to 1950 using HTTP GET requests from CelesTrak. The data was meticulously cleaned and formatted to create a robust dataset. However, I started the analysis from 1954 because that marked the beginning of a new solar cycle, providing a more consistent basis for modeling.
+To build the model, I retrieved historical F10.7 data dating back to 1950 using HTTP GET requests from [CelesTrak](https://celestrak.org/SpaceData/) and The German Research Centre for Geosciences[(GFZ)](https://www.gfz-potsdam.de/en/section/geomagnetism/data-products-services/geomagnetic-kp-index). The data was meticulously cleaned and formatted to create a robust dataset. However, I started the analysis from 1954 because that marked the beginning of a new solar cycle, providing a more consistent basis for modeling.
 
 An extensive Exploratory Data Analysis (EDA) was conducted on this dataset to uncover any hidden patterns, such as weekly, monthly, or yearly trends. Understanding these patterns was essential to refine the modeling approach and ensure that no significant cyclical behavior was overlooked.
 
